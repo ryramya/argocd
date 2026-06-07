@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flm
+  name: myapp
   annotations:
     kubernetes.io/change-cause: "updated image to dm"
 spec:
